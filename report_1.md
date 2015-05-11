@@ -1,8 +1,5 @@
 # Report Part 1
 *By Henk Bierlee (4148053) and Kilian Grashoff (4171373)*
-## Table of Contents
-
-[TOC]
 
 ## 3.1 End-to-End Testing
 ### Exercise 1
@@ -44,18 +41,18 @@ See `nl.tudelft.jpacman.board.ParameterizedBoardTest`. Checkstyle warnings are e
 Our tests test all user stories exactly as described, contains proper commenting and javadoc, and contains no Checkstyle or Findbugs violations except for the ones explained in the next paragraph.
 ### Checkstyle and Findbugs violations
 Checkstyle reports the following violations:
-| Severity 	| Category 	| Rule        	| Message                 	| Line 	|
-|----------	|----------	|-------------	|-------------------------	|------	|
-|  Warning 	| coding   	| MagicNumber 	| '6' is a magic number.  	| 69   	|
-|  Warning 	| coding   	| MagicNumber 	| '10' is a magic number. 	| 70   	|
-|  Warning 	| coding   	| MagicNumber 	| '4' is a magic number.  	| 70   	|
-|  Warning 	| coding   	| MagicNumber 	| '9' is a magic number.  	| 70   	|
-|  Warning 	| coding   	| MagicNumber 	| '5' is a magic number.  	| 70   	|
-|  Warning 	| coding   	| MagicNumber 	| '8' is a magic number.  	| 70   	|
-|  Warning 	| coding   	| MagicNumber 	| '5' is a magic number.  	| 71   	|
-|  Warning 	| coding   	| MagicNumber 	| '10' is a magic number. 	| 71   	|
-|  Warning 	| coding   	| MagicNumber 	| '6' is a magic number.  	| 71   	|
-|  Warning 	| coding   	| MagicNumber 	| '9' is a magic number.  	| 71   	|
+| Severity | Category | Rule        | Message                 | Line |
+|----------|----------|-------------|-------------------------|------|
+|  Warning | coding   | MagicNumber | '6' is a magic number.  | 69   |
+|  Warning | coding   | MagicNumber | '10' is a magic number. | 70   |
+|  Warning | coding   | MagicNumber | '4' is a magic number.  | 70   |
+|  Warning | coding   | MagicNumber | '9' is a magic number.  | 70   |
+|  Warning | coding   | MagicNumber | '5' is a magic number.  | 70   |
+|  Warning | coding   | MagicNumber | '8' is a magic number.  | 70   |
+|  Warning | coding   | MagicNumber | '5' is a magic number.  | 71   |
+|  Warning | coding   | MagicNumber | '10' is a magic number. | 71   |
+|  Warning | coding   | MagicNumber | '6' is a magic number.  | 71   |
+|  Warning | coding   | MagicNumber | '9' is a magic number.  | 71   |
 These violations are all in the `ParameterizedBoardTest.data()` method and cannot be avoided in this test, since the magic numbers are our test parameters.
 ### Log of test results
 	Running nl.tudelft.jpacman.endToEnd.MovePlayerTest
