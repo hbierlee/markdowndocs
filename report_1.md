@@ -41,6 +41,7 @@ See `nl.tudelft.jpacman.board.ParameterizedBoardTest`. Checkstyle warnings are e
 Our tests test all user stories exactly as described, contains proper commenting and javadoc, and contains no Checkstyle or Findbugs violations except for the ones explained in the next paragraph.
 ### Checkstyle and Findbugs violations
 Checkstyle reports the following violations:
+
 | Severity | Category | Rule        | Message                 | Line |
 |----------|----------|-------------|-------------------------|------|
 |  Warning | coding   | MagicNumber | '6' is a magic number.  | 69   |
