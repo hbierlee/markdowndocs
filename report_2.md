@@ -11,6 +11,7 @@ See the `MapParserTest` class
 We opted for a non-binary decision table. There are 3 types of units (player, ghost and pellet), so there are 9 possible collisions. However, since pellets cannot be colliders (as they don't move), those columns have been omitted. However, we thought it was useful to test the mirrored version of the player-ghost collision.
 
 The table should be read as follows: the first column lists the colliders. The next columns represent a rule (or situation) each, in which a collision takes place with the unit in that column - the collidee. The bottom cell of the column is the expected outcome of the collision. For example, column 3 specifies rule 2, in which a player collides with a ghost, which should result in the player dying. This is the exact same logic as used in the non-binary decision table in lecture 5, slide 32.
+
 | collider - rule       | rule 1     | rule 2 | rule 3 | rule 4      | rule 5     | rule 6     |
 |--------|------------|--------|--------|-------------|------------|------------|
 | **player** | player     | ghost  | pellet | -           | -          | -          |
