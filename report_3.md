@@ -14,12 +14,12 @@ Note: we only made the tree for the Player part of our state machine, since the 
 
 | Test Case ID |    Start state    |                Events               |         End State        |
 |:------------:|:-----------------:|:-----------------------------------:|:------------------------:|
-|       0      | Game suspended 0  |       press start, press stop       |     Game suspended 1     |
-|       1      | Game suspended 0  | press start, move [to empty Square] | Player at valid Square 1 |
-|       2      | Game suspended 0  |     press start, move [to Wall]     | Player at valid Square 2 |
-|       3      | Game suspended 0  |    press start, move [to Pellet]    | Player at valid Square 3 |
-|       4      | Game suspended 0  |     press start, move [to Ghost]    |         Game over        |
-|       5      | Game suspended 0  |  press start, move [to last Pellet] |         Game won         |
+|       0      | Game suspended 0  |       press start - press stop       |     Game suspended 1     |
+|       1      | Game suspended 0  | press start - move [to empty Square] | Player at valid Square 1 |
+|       2      | Game suspended 0  |     press start - move [to Wall]     | Player at valid Square 2 |
+|       3      | Game suspended 0  |    press start - move [to Pellet]    | Player at valid Square 3 |
+|       4      | Game suspended 0  |     press start - move [to Ghost]    |         Game over        |
+|       5      | Game suspended 0  |  press start - move [to last Pellet] |         Game won         |
 
 
 ### Exercise 18
