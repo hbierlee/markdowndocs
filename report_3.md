@@ -14,7 +14,7 @@ Transition tree derived from the state machine:
 Note: we only made the tree for the Player part of our state machine, since the Ghost class can not be end-to-end tested properly (see our report for Part 1, exercise 4).
 
 From this tree, we derived the following table by going from the root to all leaves:
-
+ 
 | Test Case ID |    Start state    |                Events               |         End State        |
 |:------------:|:-----------------:|:-----------------------------------:|:------------------------:|
 |       0      | Game suspended 0  |       press start then press stop       |     Game suspended 1     |
