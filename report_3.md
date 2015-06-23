@@ -10,8 +10,8 @@ contained in doc/scenarios.md:
 ### Exercise 17
 Transition tree derived from the state machine:
 ![Transition tree](http://i.imgur.com/oCqjbDo.png)
-Note: we only made the tree for the Player part of our state machine, since the Ghost class can not be end-to-end tested properly (see our report for Part 1, exercise 4).
 
+Note: we only made the tree for the Player part of our state machine, since the Ghost class can not be end-to-end tested properly (see our report for Part 1, exercise 4).
 
 | Test Case ID |    Start state    |                Events               |         End State        |
 |:------------:|:-----------------:|:-----------------------------------:|:------------------------:|
